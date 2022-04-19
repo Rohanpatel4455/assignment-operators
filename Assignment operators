@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int a,b,c ;
+	printf("Enter the values for a and b :");
+	scanf("%d%d",&a,&b);
+	printf("\n the values of = is:%d",c=a+b);
+	printf("\n the values of +=is:%d",c+=b);
+	printf("\n the values of -=is:%d",c-=a);
+	printf("\n the value of *=is:%d",c*=a);
+	printf("\n the value of /=is:%d",c/=b);
+	printf("\n the value of %=is:%d",c%=b);
+	}
